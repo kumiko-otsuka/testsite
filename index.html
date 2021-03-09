@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-@@<!-- vue.js@-->
+    <!-- vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <link rel="manifest" href="manifest.json">
     <title>PWA Sample</title>
@@ -14,7 +14,7 @@
         <button v-on:click="reverseMessage">Reverse Message</button>
      </div>
     <script>
-    // service worker‚Ì“o˜^ŠÖŒW
+    // service workerã®ç™»éŒ²é–¢ä¿‚
     if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('service_worker.js').then(function(registration) {
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
@@ -22,7 +22,7 @@
         console.log('ServiceWorker registration failed: ', err);
     });
     }
-    // vue.js‚Ìİ’èŠÖŒW
+    // vue.jsã®è¨­å®šé–¢ä¿‚
     var app = new Vue({
       el: '#app',
       data: {
