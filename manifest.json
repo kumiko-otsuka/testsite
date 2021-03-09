@@ -2,7 +2,7 @@
     "name":"TAP10",
     "short_name":"TAP10",
     "icons": [ {
-        "src": "/icons/icon-512x512.png",
+        "src": "/testsite/icons/icon-512x512.png",
         "sizes":"512x512",
         "type": "image/png"
       }],
